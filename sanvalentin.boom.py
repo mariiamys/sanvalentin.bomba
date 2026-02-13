@@ -9,8 +9,24 @@ st.markdown("""
 .stApp {
     background: linear-gradient(to right, #ff758c, #ff7eb3);
 }
+
 h1, h2, h3, p {
     text-align: center;
+    color: white;
+}
+
+/* Botones */
+div.stButton > button {
+    background-color: #ff4d6d;
+    color: white;
+    border-radius: 12px;
+    border: none;
+    padding: 0.6em 1em;
+    font-weight: bold;
+}
+
+div.stButton > button:hover {
+    background-color: #e63956;
     color: white;
 }
 </style>
